@@ -1,0 +1,58 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 400px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%), 0 20px 48px rgb(0 0 0 / 5%),
+    0 1px 4px rgb(0 0 0 / 10%);
+}
+
+.label{
+    padding: 10px 0px;
+}
+
+.input{
+    padding: 5px;
+    border: 1px solid 4px;
+}
+
+.submitBtn{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 6px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    transition: 100ms;
+    transition-timing-function: ease;
+    font-weight: 700;
+}
+
+.submitBtn:hover {
+    color: blue;
+    background-color: #f1f2f3;
+}
+
+@media screen and (max-width: 520px) {
+    .Form{
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Form{
+        min-width: 260px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .Form{
+        min-width: 220px;
+    }
+    .h1{
+        font-size: 23px;
+    }
+}
